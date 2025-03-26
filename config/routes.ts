@@ -1,4 +1,6 @@
-﻿export default [
+﻿import Icon from "@ant-design/icons";
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -30,12 +32,20 @@
 		component: './TienIch/GioiThieu',
 		hideInMenu: true,
 	},
+
 	{
-		path: '/random-user',
-		name: 'RandomUser',
-		component: './RandomUser',
-		icon: 'ArrowsAltOutlined',
+		path: '/thigiuaki',
+		name: 'Thi giữa kì',
+		component: './thigiuaki',
+		
 	},
+	
+	
+
+
+
+	
+	
 
 	// DANH MUC HE THONG
 	// {
