@@ -9,7 +9,6 @@ export interface SanPhamTrongDon {
 export interface DonHang {
   id: string;
   khachHang: string;
-  ngayDat: string;
   sanPham: SanPhamTrongDon[];
   tongTien: number;
   trangThai: DonHangStatus;
